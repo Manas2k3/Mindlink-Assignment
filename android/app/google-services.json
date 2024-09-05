@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "395881504713",
+    "project_id": "mindlink-assignment-cf40b",
+    "storage_bucket": "mindlink-assignment-cf40b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395881504713:android:837f351b08eb3b70859218",
+        "android_client_info": {
+          "package_name": "com.task"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyrPcZ3PTOEqkD14CUb8U-ZNanEjSRobo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

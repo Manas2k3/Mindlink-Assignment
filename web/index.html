@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="mindlink_assignment">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>mindlink_assignment</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- Firebase App (the core Firebase SDK) -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <!-- Firebase Analytics SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-analytics.js"></script>
+
+  <!-- Your web app's Firebase configuration -->
+  <script>
+    // Replace the following with your app's Firebase project configuration
+    const firebaseConfig = {
+      apiKey: 'AIzaSyDMcVYeL1ZnGYibUUPVU8Hun_RC1mbrMP8',
+      appId: '1:395881504713:web:e025d4e2b9715c11859218',
+      messagingSenderId: '395881504713',
+      projectId: 'mindlink-assignment-cf40b',
+      authDomain: 'mindlink-assignment-cf40b.firebaseapp.com',
+      storageBucket: 'mindlink-assignment-cf40b.appspot.com',
+      measurementId: 'G-0NSTQ5NRGD',
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
